@@ -1,8 +1,6 @@
 # GitHub Info
 
 [![Organization profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YuStellarGamesStudio&theme=material_palenight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![Repositories per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YuStellarGamesStudio&theme=material_palenight)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![Most committed languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YuStellarGamesStudio&theme=material_palenight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![Organization statistics](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YuStellarGamesStudio&theme=material_palenight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 [![Source code](https://img.shields.io/badge/GitHub-Source%20code-c792ea?style=flat-square&labelColor=292d3e&logo=github)](https://github.com/orgs/YuStellarGamesStudio/repositories)
 [![Website](https://img.shields.io/badge/Website-ysgs.app-82aaff?style=flat-square&labelColor=292d3e)](https://ysgs.app/)
