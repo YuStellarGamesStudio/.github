@@ -49,8 +49,18 @@ async function fetchRepos() {
 async function fetchMeta(url) {
   if (!url) return {};
   try {
-    const res = await fetch(url, { redirect: "follow", signal: AbortSignal.timeout(10_000) });
-    if (!res.ok) return {};
+    const res = await fetch(url, {
+      redirect: "follow",
+      signal: AbortSignal.timeout(10_000),
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; YSGS-ProfileBot/1.0; +https://github.com/YuStellarGamesStudio)",
+        Accept: "text/html",
+      },
+    });
+    if (!res.ok) {
+      console.warn(`${url}: HTTP ${res.status}`);
+      return {};
+    }
     const html = await res.text();
     const meta = (prop) => {
       const tag = html.match(new RegExp(`<meta[^>]+property=["']og:${prop}["'][^>]*>`, "i"))?.[0];
@@ -61,13 +71,34 @@ async function fetchMeta(url) {
       image: image && new URL(image, res.url).href,
       tagline: meta("description"),
     };
-  } catch {
+  } catch (err) {
+    console.warn(`${url}: ${err.message}`);
     return {};
   }
 }
 
+// Cover and tagline already in the README, keyed by repo name. Used when a site can't be reached
+// (e.g. the CDN challenges CI runners) so a failed fetch doesn't wipe the existing content.
+function previousMeta(readme) {
+  const meta = {};
+  for (const cell of readme.split("<td").slice(1)) {
+    const name = cell.match(new RegExp(`github\\.com/${ORG}/([^"/]+)"`))?.[1];
+    if (!name) continue;
+    const image = cell.match(/<img src="([^"]+)"[^>]*width="100%"/)?.[1];
+    const tagline = cell.match(/<i>“([\s\S]*?)”<\/i>/)?.[1];
+    meta[name] = {
+      image: image && !image.includes("opengraph.githubassets.com") ? unesc(image) : undefined,
+      tagline: tagline && unesc(tagline),
+    };
+  }
+  return meta;
+}
+
 const esc = (s = "") =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+const unesc = (s) =>
+  s.replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
 
 const trim = (s = "", n = 120) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
 
@@ -132,7 +163,15 @@ async function main() {
 
   const games = repos.filter((r) => r.topics?.some((t) => GAME_TOPICS.has(t)));
   const others = repos.filter((r) => !games.includes(r));
-  await Promise.all(games.map(async (g) => (g.meta = await fetchMeta(httpsUrl(g.homepage)))));
+  const readme = await readFile(README, "utf8");
+  const previous = previousMeta(readme);
+  await Promise.all(
+    games.map(async (g) => {
+      const fresh = await fetchMeta(httpsUrl(g.homepage));
+      const old = previous[g.name] || {};
+      g.meta = { image: fresh.image || old.image, tagline: fresh.tagline || old.tagline };
+    }),
+  );
 
   const section = [
     `<p align="center"><img src="${badge(`GAMES UNLOCKED ${games.length}`, "7c4dff")}" alt="Games"> <img src="${badge(`REPOS ${repos.length}`, "00b4d8")}" alt="Repos"></p>`,
@@ -147,7 +186,6 @@ async function main() {
       : []),
   ].join("\n");
 
-  const readme = await readFile(README, "utf8");
   const updated = readme.replace(
     /(<!-- GAMES:START -->)[\s\S]*?(<!-- GAMES:END -->)/,
     `$1\n${section}\n$2`,

@@ -20,64 +20,72 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://hexsurge.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/Hexsurge" alt="魔潮圍城 Hexsurge" width="100%"></a>
+<a href="https://hexsurge.ysgs.app/"><img src="https://hexsurge.ysgs.app/assets/social/og.png" alt="魔潮圍城 Hexsurge" width="100%"></a>
 <h3>🎮 魔潮圍城 <sub>Hexsurge</sub></h3>
 <p><code>STAGE 01</code> </p>
+<p><i>“Auto-cast spells, dodge the horde, evolve your magic. A low-poly fantasy survival bullet-hell for your browser — free,…”</i></p>
 <p><code>#彈幕</code> <code>#奇幻</code> <code>#生存</code> <code>#割草</code><br><sub>📱 行動裝置 · 📴 離線可玩 · 📲 PWA</sub></p>
 <p><a href="https://hexsurge.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/Hexsurge"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://hiddenshade.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/HiddenShade" alt="藏影迷城 HiddenShade" width="100%"></a>
+<a href="https://hiddenshade.ysgs.app/"><img src="https://hiddenshade.ysgs.app/assets/og.png" alt="藏影迷城 HiddenShade" width="100%"></a>
 <h3>🎮 藏影迷城 <sub>HiddenShade</sub></h3>
 <p><code>STAGE 02</code> 迷宮型躲貓貓小遊戲</p>
+<p><i>“An endless isometric stealth maze. No downloads. No tracking. Play offline.”</i></p>
 <p><code>#躲貓貓</code> <code>#迷宮</code> <code>#隨機生成</code> <code>#潛行</code><br><sub>🌐 多語系 · 📴 離線可玩 · 📲 PWA</sub></p>
 <p><a href="https://hiddenshade.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/HiddenShade"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://bunnydoom.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/BunnyDoom" alt="兔兔末日 Bunny Doom: Last Pomeranian" width="100%"></a>
+<a href="https://bunnydoom.ysgs.app/"><img src="https://bunnydoom.ysgs.app/assets/icons/og.jpg" alt="兔兔末日 Bunny Doom: Last Pomeranian" width="100%"></a>
 <h3>🎮 兔兔末日 <sub>Bunny Doom: Last Pomeranian</sub></h3>
 <p><code>STAGE 03</code> 輕鬆類打地鼠遊戲</p>
+<p><i>“The bunnies took over the world. One Pomeranian fights back! A frantic whack-a-mole game — smack bunnies, charge specia…”</i></p>
 <p><code>#動作</code> <code>#街機</code> <code>#打地鼠</code><br><sub>📲 PWA · ⚡ WebGPU</sub></p>
 <p><a href="https://bunnydoom.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/BunnyDoom"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://starwardbastion.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/StarwardBastion" alt="星域防線 Starward Bastion" width="100%"></a>
+<a href="https://starwardbastion.ysgs.app/"><img src="https://starwardbastion.ysgs.app/icons/og-image.png" alt="星域防線 Starward Bastion" width="100%"></a>
 <h3>🎮 星域防線 <sub>Starward Bastion</sub></h3>
 <p><code>STAGE 04</code> 網頁塔防小遊戲</p>
+<p><i>“Defend your space colony’s energy core! Top-down sci-fi tower defense with 20 maps, 12 towers, 16 enemies and 20 origin…”</i></p>
 <p><code>#策略</code> <code>#塔防</code><br><sub>📴 離線可玩</sub></p>
 <p><a href="https://starwardbastion.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/StarwardBastion"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://bushwhack.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/Bushwhack" alt="草叢突擊 Bushwhack" width="100%"></a>
+<a href="https://bushwhack.ysgs.app/"><img src="https://bushwhack.ysgs.app/assets/og-cover.png" alt="草叢突擊 Bushwhack" width="100%"></a>
 <h3>🎮 草叢突擊 <sub>Bushwhack</sub></h3>
 <p><code>STAGE 05</code> 網頁射擊小遊戲</p>
+<p><i>“Shoot enemies, loot crates, vanish into the grass. Free in your browser — survive wave after wave!”</i></p>
 <p><code>#隨機生成</code> <code>#潛行</code> <code>#生存</code> <code>#射擊</code></p>
 <p><a href="https://bushwhack.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/Bushwhack"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://airhive.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/Airhive" alt="蜂群戰線 Airhive" width="100%"></a>
+<a href="https://airhive.ysgs.app/"><img src="https://airhive.ysgs.app/assets/social/og-image.png" alt="蜂群戰線 Airhive" width="100%"></a>
 <h3>🎮 蜂群戰線 <sub>Airhive</sub></h3>
 <p><code>STAGE 06</code> 小蜜蜂式網頁射擊小遊戲</p>
+<p><i>“A fixed-turret air combat arcade game. Endless swarm waves, eight bosses, original FM soundtrack. Free in your browser,…”</i></p>
 <p><code>#街機</code> <code>#射擊</code><br><sub>📴 離線可玩 · 📲 PWA · ⚡ WebGPU</sub></p>
 <p><a href="https://airhive.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/Airhive"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://nightreap.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/Nightreap" alt="永夜收割 Nightreap" width="100%"></a>
+<a href="https://nightreap.ysgs.app/"><img src="https://nightreap.ysgs.app/assets/social/nightreap-social.png" alt="永夜收割 Nightreap" width="100%"></a>
 <h3>🎮 永夜收割 <sub>Nightreap</sub></h3>
 <p><code>STAGE 07</code> 暗黑系割草遊戲</p>
+<p><i>“The night is endless. Your flame is not. Venture into a dark fantasy action RPG of heroes and relics.”</i></p>
 <p><code>#動作RPG</code> <code>#Boss 戰</code> <code>#暗黑奇幻</code> <code>#地城</code><br><sub>📴 離線可玩 · 📲 PWA</sub></p>
 <p><a href="https://nightreap.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/Nightreap"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://slimegarden.ysgs.app/"><img src="https://opengraph.githubassets.com/1/YuStellarGamesStudio/Slimegarden" alt="史萊姆花園 Slimegarden" width="100%"></a>
+<a href="https://slimegarden.ysgs.app/"><img src="https://slimegarden.ysgs.app/assets/og-image.png" alt="史萊姆花園 Slimegarden" width="100%"></a>
 <h3>🎮 史萊姆花園 <sub>Slimegarden</sub></h3>
 <p><code>STAGE 08</code> 放置類治癒小遊戲</p>
+<p><i>“Grow a tank of soft, squishy slimes. Merge, discover recipes, and fill your codex — a cozy idle game.”</i></p>
 <p><code>#療癒</code> <code>#收集</code> <code>#放置</code> <code>#合成</code><br><sub>📴 離線可玩 · 📲 PWA</sub></p>
 <p><a href="https://slimegarden.ysgs.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-ff3e7f?style=for-the-badge" alt="Play"></a> <a href="https://github.com/YuStellarGamesStudio/Slimegarden"><img src="https://img.shields.io/badge/SOURCE-2b2d42?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a></p>
 </td>
