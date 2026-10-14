@@ -11,7 +11,7 @@
 </p>
 
 <!-- GAMES:START -->
-<p align="center"><img src="https://img.shields.io/badge/GAMES%20UNLOCKED%208-7c4dff?style=for-the-badge" alt="Games"> <img src="https://img.shields.io/badge/REPOS%2011-00b4d8?style=for-the-badge" alt="Repos"></p>
+<p align="center"><img src="https://img.shields.io/badge/GAMES%20UNLOCKED%208-7c4dff?style=for-the-badge" alt="Games"> <img src="https://img.shields.io/badge/REPOS%2010-00b4d8?style=for-the-badge" alt="Repos"></p>
 
 ## 🕹️ SELECT YOUR GAME
 
@@ -98,7 +98,6 @@
 | --- | --- | --- |
 | [**GameCatalog**](https://github.com/YuStellarGamesStudio/GameCatalog) | YSGS.app Gmaes Data Storages | [data.ysgs.app](https://data.ysgs.app/) |
 | [**YSGS.app**](https://github.com/YuStellarGamesStudio/YSGS.app) | YSGS (星語遊戲網) – YuStellarGamesStudio's game portal. English / 繁體中文 / 日本語. Vite + TypeScript, 3D background, PWA. | [ysgs.app](https://ysgs.app/) |
-| [**YuStellarGamesStudio**](https://github.com/YuStellarGamesStudio/YuStellarGamesStudio) | GitHub Profiles | [ysgs.app](https://ysgs.app/) |
 <!-- GAMES:END -->
 
 ## 🧰 PLAYER GUIDE · 開發者指南
